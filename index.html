@@ -17,11 +17,10 @@
     <script defer="" src="js/script.js"></script>
   </head>
   <body>
-    <a class="skip-link" href="#main"> </a>
     <!--헤더 -->
-    <header class="site-header" id="siteHeader">
-      <div class="government-bar">
-        <div class="container government-inner">
+    <header id="header">
+      <div class="hd_top">
+        <div class="wrap hd_top_in">
           <p>
             <img
               alt="국기"
@@ -32,95 +31,95 @@
             />
             이 누리집은 대한민국 공식 전자정부 누리집입니다.
           </p>
-          <div class="utility-links">
+          <div class="lang">
             <a href="#"> EN </a>
             <a href="#"> KR </a>
           </div>
         </div>
       </div>
-      <div class="header-main">
-        <div class="container header-inner">
+      <div class="hd_main">
+        <div class="wrap hd_inner">
           <a class="logo" href="index.html">
             <img
               alt="한국관광공사"
-              class="logo-white"
+              class="logo_white"
               height="53"
               src="img/logo_kto_white.png"
               width="142"
             />
             <img
               alt=""
-              class="logo-dark"
+              class="logo_dark"
               height="46"
               src="img/logo_kto.svg"
               width="139"
             />
           </a>
-          <nav class="desktop-nav">
+          <nav class="gnb">
             <ul>
               <li>
-                <button class="nav-trigger" type="button">정보공개</button>
+                <button class="gnb_btn" type="button">정보공개</button>
               </li>
               <li>
-                <button class="nav-trigger" type="button">주요사업</button>
+                <button class="gnb_btn" type="button">주요사업</button>
               </li>
               <li>
-                <button class="nav-trigger" type="button">알림마당</button>
+                <button class="gnb_btn" type="button">알림마당</button>
               </li>
               <li>
-                <button class="nav-trigger" type="button">국민참여</button>
+                <button class="gnb_btn" type="button">국민참여</button>
               </li>
 
               <li>
-                <button class="nav-trigger" type="button">공사소개</button>
+                <button class="gnb_btn" type="button">공사소개</button>
               </li>
               <li>
-                <button class="nav-trigger" type="button">채용정보</button>
+                <button class="gnb_btn" type="button">채용정보</button>
               </li>
             </ul>
           </nav>
-          <div class="header-actions">
-            <details class="search-open-box" name="header-panel">
-              <summary class="icon-btn search-open">
-                <svg aria-hidden="true" viewbox="0 0 24 24">
+          <div class="hd_btns">
+            <details class="search">
+              <summary class="icon search_btn">
+                <svg viewbox="0 0 24 24">
                   <circle cx="10.8" cy="10.8" r="6.5"></circle>
                   <path d="m16 16 5 5"></path>
                 </svg>
               </summary>
             </details>
-            <details class="menu-open-box" name="header-panel">
-              <summary class="icon-btn menu-open">
-                <span class="hamburger">
+            <details class="menu_box">
+              <summary class="icon menu_btn">
+                <span class="bar">
                   <i> </i>
                   <i> </i>
                   <i> </i>
                 </span>
               </summary>
-              <aside class="all-menu" id="allMenu">
-                <div class="all-menu-head">
+              <aside class="all_menu">
+                <div class="all_menu_top">
                   <strong> 전체메뉴 </strong>
                 </div>
-                <div class="all-menu-body" id="allMenuBody">
-                  <details class="all-menu-item">
-                    <summary class="all-menu-title">정보공개</summary>
+                <div class="all_menu_in">
+                  <details class="all_menu_item">
+                    <summary class="all_menu_title">정보공개</summary>
                   </details>
-                  <details class="all-menu-item">
-                    <summary class="all-menu-title">주요사업</summary>
+                  <details class="all_menu_item">
+                    <summary class="all_menu_title">주요사업</summary>
                   </details>
-                  <details class="all-menu-item">
-                    <summary class="all-menu-title">알림마당</summary>
+                  <details class="all_menu_item">
+                    <summary class="all_menu_title">알림마당</summary>
                   </details>
-                  <details class="all-menu-item">
-                    <summary class="all-menu-title">국민참여</summary>
+                  <details class="all_menu_item">
+                    <summary class="all_menu_title">국민참여</summary>
                   </details>
-                  <details class="all-menu-item">
-                    <summary class="all-menu-title">KTO경영</summary>
+                  <details class="all_menu_item">
+                    <summary class="all_menu_title">KTO경영</summary>
                   </details>
-                  <details class="all-menu-item">
-                    <summary class="all-menu-title">공사소개</summary>
+                  <details class="all_menu_item">
+                    <summary class="all_menu_title">공사소개</summary>
                   </details>
-                  <details class="all-menu-item">
-                    <summary class="all-menu-title">채용정보</summary>
+                  <details class="all_menu_item">
+                    <summary class="all_menu_title">채용정보</summary>
                   </details>
                 </div>
               </aside>
@@ -131,58 +130,31 @@
     </header>
 
     <main id="main">
-      <section class="hero" id="hero">
-        <div aria-hidden="true" class="visual-slides">
-          <div class="visual-slide slide-one is-current"></div>
+      <section id="visual">
+        <div class="visual_bg">
+          <div class="visual_slide bg1 on"></div>
 
-          <div class="visual-slide slide-two"></div>
+          <div class="visual_slide bg2"></div>
 
-          <div class="visual-slide slide-three"></div>
+          <div class="visual_slide bg3"></div>
         </div>
-        <div class="container hero-inner">
+        <div class="wrap visual_inner">
           <h1>
             세계인을 한국으로
             <br />
             국민을 행복으로 이끄는 관광선도기관
           </h1>
-          <div class="quick-navigation">
-            <div class="quick-tabs" role="tablist">
-              <button
-                aria-controls="quickPanel0"
-                aria-selected="false"
-                class="quick-tab"
-                data-quick="0"
-                id="quickTab0"
-                role="tab"
-              >
-                국내여행정보
-              </button>
-              <button
-                aria-controls="quickPanel1"
-                aria-selected="false"
-                class="quick-tab"
-                data-quick="1"
-                id="quickTab1"
-                role="tab"
-              >
-                관광기업지원
-              </button>
-              <button
-                aria-controls="quickPanel2"
-                aria-selected="true"
-                class="quick-tab is-active"
-                data-quick="2"
-                id="quickTab2"
-                role="tab"
-              >
-                관광데이터
-              </button>
+          <div class="quick">
+            <div class="quick_menu">
+              <button class="quick_btn">국내여행정보</button>
+              <button class="quick_btn">관광기업지원</button>
+              <button class="quick_btn on">관광데이터</button>
             </div>
-            <div class="quick-panel" hidden="" id="quickPanel0" role="tabpanel">
+            <div class="quick_con" id="tab1">
               <a href="#">
                 <img
                   alt=""
-                  class="quick-service-icon"
+                  class="quick_img"
                   src="img/main_tour_service01.png"
                 />
                 대한민국<br />구석구석
@@ -190,7 +162,7 @@
               <a href="#">
                 <img
                   alt=""
-                  class="quick-service-icon"
+                  class="quick_img"
                   src="img/main_tour_service02.png"
                 />
                 VISIT<br />KOREA
@@ -198,7 +170,7 @@
               <a href="#">
                 <img
                   alt=""
-                  class="quick-service-icon"
+                  class="quick_img"
                   src="img/main_tour_service03.png"
                 />
                 두루누비
@@ -206,7 +178,7 @@
               <a href="#">
                 <img
                   alt=""
-                  class="quick-service-icon"
+                  class="quick_img"
                   src="img/main_tour_service04.png"
                 />
                 세이프<br />스테이
@@ -214,7 +186,7 @@
               <a href="#">
                 <img
                   alt=""
-                  class="quick-service-icon"
+                  class="quick_img"
                   src="img/main_tour_service05.png"
                 />
                 열린관광<br />모두의여행
@@ -222,7 +194,7 @@
               <a href="#">
                 <img
                   alt=""
-                  class="quick-service-icon"
+                  class="quick_img"
                   src="img/main_tour_service06.png"
                 />
                 오디
@@ -230,7 +202,7 @@
               <a href="#">
                 <img
                   alt=""
-                  class="quick-service-icon"
+                  class="quick_img"
                   src="img/main_tour_service07.png"
                 />
                 고캠핑
@@ -238,17 +210,17 @@
               <a href="#">
                 <img
                   alt=""
-                  class="quick-service-icon"
+                  class="quick_img"
                   src="img/main_tour_service08.png"
                 />
                 하이커<br />그라운드
               </a>
             </div>
-            <div class="quick-panel" hidden="" id="quickPanel1" role="tabpanel">
+            <div class="quick_con" id="tab2">
               <a href="#">
                 <img
                   alt=""
-                  class="quick-service-icon"
+                  class="quick_img"
                   src="img/main_tour_service09.png"
                 />
                 한국관광<br />산업포털
@@ -256,7 +228,7 @@
               <a href="#">
                 <img
                   alt=""
-                  class="quick-service-icon"
+                  class="quick_img"
                   src="img/main_tour_service10.png"
                 />
                 관광기업<br />혁신바우처
@@ -264,7 +236,7 @@
               <a href="#">
                 <img
                   alt=""
-                  class="quick-service-icon"
+                  class="quick_img"
                   src="img/main_tour_service11.png"
                 />
                 관광두레
@@ -272,7 +244,7 @@
               <a href="#">
                 <img
                   alt=""
-                  class="quick-service-icon"
+                  class="quick_img"
                   src="img/main_tour_service12.png"
                 />
                 K-MICE
@@ -280,7 +252,7 @@
               <a href="#">
                 <img
                   alt=""
-                  class="quick-service-icon"
+                  class="quick_img"
                   src="img/main_tour_service14.png"
                 />
                 근로자<br />휴가지원
@@ -288,7 +260,7 @@
               <a href="#">
                 <img
                   alt=""
-                  class="quick-service-icon"
+                  class="quick_img"
                   src="img/main_tour_service15.png"
                 />
                 관광e<br />배움터
@@ -296,17 +268,17 @@
               <a href="#">
                 <img
                   alt=""
-                  class="quick-service-icon"
+                  class="quick_img"
                   src="img/main_tour_service16.png"
                 />
                 관광전문인력<br />포털
               </a>
             </div>
-            <div class="quick-panel is-active" id="quickPanel2" role="tabpanel">
+            <div class="quick_con on" id="tab3">
               <a href="#">
                 <img
                   alt=""
-                  class="quick-service-icon"
+                  class="quick_img"
                   src="img/main_tour_service17.png"
                 />
                 데이터랩
@@ -314,7 +286,7 @@
               <a href="#">
                 <img
                   alt=""
-                  class="quick-service-icon"
+                  class="quick_img"
                   src="img/main_tour_service19.png"
                 />
                 콘텐츠랩
@@ -323,26 +295,26 @@
           </div>
         </div>
       </section>
-      <!--섹션 1알림마당-->
-      <section class="news-section" id="news">
-        <div class="container news-layout">
-          <div class="section-heading news-heading">
-            <p class="section-eyebrow">
+      <!-- con1 알림마당 -->
+      <section id="con1">
+        <div class="wrap con1_inner">
+          <div class="title con1_title">
+            <p class="sub">
               <span> 알림마당 </span>
             </p>
-            <h2 id="newsHeading">
-              <span class="muted"> 한국관광공사의 </span>
+            <h2>
+              <span class="gray"> 한국관광공사의 </span>
               <br />
               새로운 소식을
-              <br class="desktop-only" />
+              <br class="pc" />
               만나보세요
             </h2>
           </div>
-          <div class="news-main-grid">
-            <div class="news-left">
-              <a class="news-card" href="#">
-                <span class="news-category"> 보도자료 </span>
-                <span aria-hidden="true" class="news-plus"> ＋ </span>
+          <div class="news_list">
+            <div class="news_left">
+              <a class="news_card" href="#">
+                <span class="news_type"> 보도자료 </span>
+                <span class="plus"> ＋ </span>
                 <strong>
                   ‘수학여행 다시 떠나려면...’ 교사와 해법 찾는다
                 </strong>
@@ -351,118 +323,113 @@
                 </p>
                 <time datetime="2026-10-19"> 2026-10-19 </time>
               </a>
-              <a class="news-card" href="#">
-                <span class="news-category"> 보도자료 </span>
-                <span aria-hidden="true" class="news-plus"> ＋ </span>
+              <a class="news_card" href="#">
+                <span class="news_type"> 보도자료 </span>
+                <span class="plus"> ＋ </span>
                 <strong> 달리며 나눈 희망, 원주 바람길숲에 온기 더하다 </strong>
                 <p>달리며 나눈 희망, 원주 바람길숲에 온기를 더하다…</p>
                 <time datetime="2026-10-19"> 2026-10-19 </time>
               </a>
             </div>
-            <div class="news-right">
-              <a class="news-card news-card-third" href="#">
-                <span class="news-category"> 보도자료 </span>
-                <span aria-hidden="true" class="news-plus"> ＋ </span>
+            <div class="news_right">
+              <a class="news_card third" href="#">
+                <span class="news_type"> 보도자료 </span>
+                <span class="plus"> ＋ </span>
                 <strong>
                   한국관광공사, ‘지역관광 부스터’로 인구감소지역에 활력을 더한다
                 </strong>
                 <p>한국관광공사, ‘지역관광 부스터’로 인구감소지역에…</p>
                 <time datetime="2026-10-15"> 2026-10-15 </time>
               </a>
-              <div class="news-banners">
-                <div class="banner-track">
-                  <div
-                    class="banner-slide banner-1 is-current"
-                    role="img"
-                  ></div>
-                  <div class="banner-slide banner-2" role="img"></div>
-                  <div class="banner-slide banner-3" role="img"></div>
+              <div class="banner">
+                <div class="banner_list">
+                  <div class="banner_slide banner1 on"></div>
+                  <div class="banner_slide banner2"></div>
+                  <div class="banner_slide banner3"></div>
                 </div>
-                <div class="banner-controls"></div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- 섹션2 주요사업 -->
-      <section class="business-section" id="business">
-        <div class="container">
-          <div class="section-heading business-heading">
-            <p class="section-eyebrow">
+      <!-- con2 주요사업 -->
+      <section id="con2">
+        <div class="wrap">
+          <div class="title con2_title">
+            <p class="sub">
               <span> 주요사업 </span>
             </p>
-            <h2 id="businessHeading">
+            <h2>
               국가경제 발전과 국민복지 증진을 위해
               <br />
               다양한 사업을 추진합니다
             </h2>
           </div>
-          <div class="business-cards" id="businessCards">
-            <article class="business-card business-card-1" tabindex="0">
-              <!-- -->
-              <div class="business-card-content">
+          <div class="card_list">
+            <div class="card card1">
+              <div class="card_txt">
                 <h3>국제관광지원</h3>
                 <p>
                   인바운드 미래성장으로 세계인이 찾는 관광대국 실현을 위해
                   노력합니다.
                 </p>
-                <a class="round-arrow" href="#">
+                <a class="arrow" href="#">
                   <i class="fa-solid fa-arrow-right"></i>
                 </a>
               </div>
-            </article>
-            <article class="business-card business-card-2" tabindex="0">
-              <div class="business-card-content">
+            </div>
+            <div class="card card2">
+              <div class="card_txt">
                 <h3>국민관광지원</h3>
                 <p>
                   국내여행 활성화를 통한 국민의 삶의 질 향상 및 지역경제 발전을
                   위해 노력합니다.
                 </p>
-                <a class="round-arrow" href="#">
+                <a class="arrow" href="#">
                   <i class="fa-solid fa-arrow-right"></i>
                 </a>
               </div>
-            </article>
-            <article class="business-card business-card-3" tabindex="0">
-              <div class="business-card-content">
+            </div>
+            <div class="card card3">
+              <div class="card_txt">
                 <h3>관광산업지원</h3>
                 <p>
                   관광 생태계의 혁신과 성장을 지원함으로써 관광산업의 발전을
                   위해 노력합니다.
                 </p>
-                <a class="round-arrow" href="#">
+                <a class="arrow" href="#">
                   <i class="fa-solid fa-arrow-right"></i>
                 </a>
               </div>
-            </article>
-            <article class="business-card business-card-4" tabindex="0">
-              <div class="business-card-content">
+            </div>
+            <div class="card card4">
+              <div class="card_txt">
                 <h3>관광콘텐츠육성</h3>
                 <p>
                   다양하고 매력적인 관광콘텐츠 발굴과 육성을 통한 행복한
                   한국관광 실현을 위해 노력합니다.
                 </p>
-                <a class="round-arrow" href="#">
+                <a class="arrow" href="#">
                   <i class="fa-solid fa-arrow-right"></i>
                 </a>
               </div>
-            </article>
+            </div>
           </div>
         </div>
       </section>
-      <!-- 섹션3 공사참여  -->
-      <section class="participation-section" id="participation">
-        <div class="container participation-inner">
-          <div class="participation-heading section-heading">
-            <p class="section-eyebrow">
+      <!-- con3 공사참여 -->
+      <section id="con3">
+        <div class="wrap con3_inner">
+          <div class="con3_title title">
+            <p class="sub">
               <span> 공사 참여 </span>
             </p>
-            <h2 id="participationHeading">
+            <h2>
               국민에게 신뢰받는
               <br />
               관광 선도기관
             </h2>
-            <div class="participation-actions">
+            <div class="intro_btn">
               <a href="#">
                 인사말
                 <span> → </span>
@@ -473,8 +440,8 @@
               </a>
             </div>
           </div>
-          <div class="participation-extra">
-            <div class="participation-info">
+          <div class="con3_right">
+            <div class="info">
               <h3>윤리·인권 경영</h3>
               <h4>
                 클린 케이티오
@@ -491,7 +458,7 @@
                 인권 경영 <i class="fa-solid fa-arrow-right"></i>
               </a>
             </div>
-            <div class="participation-info">
+            <div class="info">
               <h3>KTO ESG경영</h3>
               <p>
                 한국관광공사는 ESG경영을 통해 지속가능관광을 구현하겠습니다.
@@ -503,7 +470,7 @@
                 ESG경영지표 <i class="fa-solid fa-arrow-right"></i>
               </a>
             </div>
-            <div class="participation-links">
+            <div class="links">
               <a href="#">
                 똑똑한 문의 <i class="fa-regular fa-message"></i>
               </a>
@@ -519,15 +486,15 @@
         </div>
       </section>
     </main>
-    <!--푸터-->
-    <footer class="site-footer" id="footer">
-      <div class="related-strip">
-        <div class="container related-inner">
-          <span class="related-label">
+    <!-- footer -->
+    <footer id="footer">
+      <div class="site_bar">
+        <div class="wrap site_inner">
+          <span class="site_tit">
             <strong><i class="fa-solid fa-desktop"></i> 관련사이트 </strong>
           </span>
-          <div class="related-overflow">
-            <div class="related-links" id="relatedLinks">
+          <div class="site_scroll">
+            <div class="site_list">
               <span> 안전신문고 </span>
               <span> 청탁금지법 통합검색 </span>
               <span> 채용비리 통합신고센터 </span>
@@ -539,9 +506,9 @@
           </div>
         </div>
       </div>
-      <div class="container footer-inner">
-        <div class="footer-company">
-          <a class="logo footer-logo" href="https://knto.or.kr/index">
+      <div class="wrap ft_inner">
+        <div class="ft_left">
+          <a class="logo ft_logo" href="https://knto.or.kr/index">
             <img
               alt="한국관광공사"
               height="46"
@@ -549,30 +516,28 @@
               width="139"
             />
           </a>
-          <p class="company-info">
+          <p class="ft_info">
             26464 강원특별자치도 원주시 세계로 10 한국관광공사 | 사장 : 박성혁 |
             TEL : 033-738-3000 | 통신판매업신고 : 제2022-강원원주-0381호
           </p>
-          <div class="footer-policy">
+          <div class="ft_menu">
             <a href="#"> 개인정보 처리방침 </a>
             <a href="#"> 저작권 보호정책 </a>
             <a href="#"> 영상정보처리기기 운영관리방침 </a>
             <a href="#"> 전자우편 무단수집거부 </a>
           </div>
-          <p class="copyright">
-            Copyright © 한국관광공사. All rights reserved.
-          </p>
+          <p class="copy">Copyright © 한국관광공사. All rights reserved.</p>
         </div>
         <div class="family">
-          <details class="family-select">
-            <summary class="family-button">
+          <details class="family_select">
+            <summary class="family_btn">
               Family Site<span><i class="fa-solid fa-compress"></i></span>
             </summary>
           </details>
 
           <img
             alt=" 마크"
-            class="cert-image"
+            class="mark"
             height="71"
             src="img/img_acc.svg"
             width="100"
