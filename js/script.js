@@ -23,6 +23,7 @@ $(function () {
   function tabChange() {
     $(".quick_btn").removeClass("on").eq(tab).addClass("on");
     $(".quick_con").removeClass("on").eq(tab).addClass("on");
+    $(".btn_top").removeClass("on").eq(tab).addClass("on");
   }
 
   function tabStart() {

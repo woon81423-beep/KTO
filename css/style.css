@@ -28,7 +28,7 @@ button {
 }
 button:focus-visible,
 a:focus-visible {
-  outline: 3px solid #ec4e76;
+  outline: 3px solid #ff0000;
   outline-offset: 3px;
 }
 ul {
@@ -159,7 +159,7 @@ ul {
   right: 15px;
   bottom: 0;
   height: 3px;
-  background: #ed1556;
+  background: #ff0000;
   transform: scaleX(0);
   transition: transform 0.2s;
 }
@@ -215,7 +215,7 @@ ul {
 }
 
 a.mega-heading:hover {
-  color: #ed1556;
+  color: #ff0000;
 }
 
 .all_menu {
@@ -1551,8 +1551,21 @@ summary::-webkit-details-marker {
 .visual_bg::after {
   z-index: 3;
 }
-.quick_btn.on {
-  border-bottom: 3px solid #ed1556;
+/* .quick_btn.on {
+  border-top: 3px solid #ed1515;
+  margin-top: -3px;
+} */
+.quick_btn {
+  position: relative;
+}
+.btn_top.on {
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  right: 0%;
+  top: 5px;
+  border-radius: 50%;
+  background-color: red;
 }
 .card h3 {
   white-space: normal;
