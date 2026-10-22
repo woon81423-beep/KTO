@@ -38,7 +38,7 @@ $(function () {
     }, 4500);
      //라인
   $(".line").css({ width: "0%" });
-  $(".line").stop().animate({ width: "100%" });
+  $(".line").stop().animate({ width: "100%" },1000);
   }
 
   $(".quick_btn").on("click", function () {
