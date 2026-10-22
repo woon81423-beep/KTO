@@ -872,6 +872,7 @@ a.mega-heading:hover {
   transform: translateY(-100px);
   opacity: 0;
   transition: 0.5s;
+  
 }
 .participation-section.on {
   transform: translateY(0);
@@ -879,8 +880,9 @@ a.mega-heading:hover {
 }
 
 .participation-section {
-  height: 100vh;
-  margin: 115px 0 120px;
+  height: auto;
+  min-height: 780px;
+  margin: 115px 0 0;
   position: relative;
   overflow: hidden;
   background: #0d1c39 url("../img/main_section03_background.jpg") center
