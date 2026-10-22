@@ -36,6 +36,9 @@ $(function () {
       }
       tabChange();
     }, 4500);
+     //라인
+  $(".line").css({ width: "0%" });
+  $(".line").stop().animate({ width: "100%" });
   }
 
   $(".quick_btn").on("click", function () {
@@ -53,7 +56,7 @@ $(function () {
   });
   tabChange();
   tabStart();
-
+ 
   // 스크롤화면
   function scrollEffect() {
     let sc = $(window).scrollTop();
@@ -65,7 +68,7 @@ $(function () {
       $(".con2_title, .card_list").addClass("on");
     }
     if (sc >= $("#con3").offset().top - 100) {
-      $("#con3").addClass("on");
+      $(".con3_title, .con3_right").addClass("on");
     }
   }
   $(window).on("scroll", scrollEffect);
